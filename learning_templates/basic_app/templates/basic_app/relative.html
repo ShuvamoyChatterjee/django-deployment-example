@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html"%}
+{% block body_block %}
+{% load filters %}
+<p align="center">Relative Page</p>
+<div align="center">
+    {{relative|func:" hello"}}
+</div>
+{% endblock %}
